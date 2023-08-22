@@ -1,0 +1,45 @@
+.todos-loading-container {
+    position: relative;
+  }
+  
+  .todos-loading-content1,
+  .todos-loading-content2,
+  .todos-loading-content3 {
+    position: relative;
+    padding: 30px;
+    margin-top: 24px;
+    margin-left: 50px; 
+    margin-right: 50px;
+    background-color: #777777; /* Color de fondo gris claro */
+    box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.15);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .todos-loading-line {
+    position: absolute;
+    top: 0;
+    left: -100%; /* Inicia la línea de carga fuera del elemento */
+    width: 100%;
+    height: 100%;
+    background-color: #fff; /* Color de la línea de carga blanco */
+    animation: loadingAnimation 1s linear infinite; /* Ajusta la duración de la animación */
+  }
+  
+  @keyframes loadingAnimation {
+    0% {
+      left: -100%;
+    }
+    100% {
+      left: 100%;
+    }
+  }
+  
+  .todos-loading-text {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+    text-align: center;
+  }
+  
