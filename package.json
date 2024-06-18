@@ -60,7 +60,7 @@
     "build": "node scripts/build.js"
   },
   "eslintConfig": {
-    "extends": [
+    "extends": [                                
       "react-app"
     ]
   },
@@ -76,7 +76,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": ".",
+  "homepage": "https://chatojared06.github.io/TodoMachine",
   "devDependencies": {
     "gh-pages": "^6.0.0"
   },

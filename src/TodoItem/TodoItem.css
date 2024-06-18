@@ -1,14 +1,15 @@
 .TodoItem {
-  background-color: #dde0ce;
+  background-color: #ffffff;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 24px;
-  margin-left: 50px; /* Margen de 50px a la izquierda */
-  margin-right: 50px; /* Margen de 50px a la derecha */
+  margin-left: 70px; 
+  margin-right: 120px; 
   box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.15);
   border-radius: 10px;
+  border-color: #000000;
 }
 
 .TodoItem-p {
